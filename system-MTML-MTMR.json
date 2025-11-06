@@ -1,0 +1,104 @@
+{
+    "$id" : "dvrk-system.schema.json",
+    "$version" : "1",
+    "IOs" : 
+    [
+        {
+            "name" : "io",
+            "port" : "fw",
+            "protocol" : "broadcast-read-write"
+        }
+    ],
+    "arms" : 
+    [
+        {
+            "IO" : "io",
+            "base_frame" : 
+            {
+                "reference_frame" : "HRSV",
+                "transform" : 
+                [
+                    [
+                        -1.0,
+                        -8.6595605623549316e-17,
+                        8.6595605623549341e-17,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.70710678118654757,
+                        0.70710678118654746,
+                        0.40000000000000002
+                    ],
+                    [
+                        -1.2246467991473532e-16,
+                        0.70710678118654746,
+                        -0.70710678118654757,
+                        0.47499999999999998
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "name" : "MTML",
+            "serial" : "00000",
+            "type" : "MTM"
+        },
+        {
+            "IO" : "io",
+            "base_frame" : 
+            {
+                "reference_frame" : "HRSV",
+                "transform" : 
+                [
+                    [
+                        -1.0,
+                        -8.6595605623549316e-17,
+                        8.6595605623549341e-17,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.70710678118654757,
+                        0.70710678118654746,
+                        0.40000000000000002
+                    ],
+                    [
+                        -1.2246467991473532e-16,
+                        0.70710678118654746,
+                        -0.70710678118654757,
+                        0.47499999999999998
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "name" : "MTMR",
+            "serial" : "22222",
+            "type" : "MTM"
+        }
+    ],
+    "consoles" : 
+    [
+        {
+            "HID_file" : "hid/goovis-hd.json",
+            "IO_pedals" : 
+            {
+                "IO" : "io",
+                "IO_file" : "io/sawRobotIO1394-MTML-foot-pedals-QLA1.json"
+            },
+            "input_type" : "PEDALS_GOOVIS_HEAD_SENSOR",
+            "name" : "Console",
+            "teleop_ECMs" : [],
+            "teleop_PSMs" : []
+        }
+    ]
+}
