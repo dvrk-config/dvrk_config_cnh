@@ -236,10 +236,10 @@
                             "offset": 32852.334872380925,
                             "scale": 5242.88
                         },
-                        "maximum_current": 0.9
+                        "maximum_current": 1.2
                     },
                     "engaged_current": 0.0,
-                    "release_current": 0.9,
+                    "release_current": 1.0,
                     "release_time": 2.0,
                     "released_current": 0.2
                 }

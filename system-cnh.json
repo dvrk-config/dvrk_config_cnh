@@ -6,7 +6,8 @@
         {
             "name" : "io",
             "port" : "fw",
-            "protocol" : "broadcast-read-write",
+            //"protocol" : "broadcast-read-write",
+            "protocol" : "sequential-read-broadcast-write",
 	    "watchdog_timeout" : 0.2
         }
     ],
@@ -165,6 +166,7 @@
                     "PSM" : "PSM1",
                     "configure_parameter" : 
                     {
+                        //"ignore_jaw": true,
                         "scale" : 0.40000000000000002
                     }
                 }
