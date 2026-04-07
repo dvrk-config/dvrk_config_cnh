@@ -7,4 +7,5 @@
     //, "tool_detection": "MANUAL"
     // , "tool_detection": "FIXED"
     , "tool_detection": "AUTOMATIC"
+    , "cannula_depth": 0.06
 }
